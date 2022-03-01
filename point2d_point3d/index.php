@@ -12,15 +12,10 @@ class Point2D {
         $this->array[] = $y;
     }
 
-    function setX($x) {
-        $this->x = $x;
-    }
     function getX() {
         return $this->x;
     }
-    function setY($y) {
-        $this->y = $y;
-    }
+ 
     function getY() {
         return $this->y;
     }
